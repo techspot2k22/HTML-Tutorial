@@ -1,0 +1,66 @@
+<!-- Techspot -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List & Anchor tag with Class and Id</title>
+    <style>
+        /* ul li{
+            list-style-type: circle;
+        }
+        ol li{
+            list-style-type: lower-alpha;
+        } */
+        .firstlink{
+           
+            color: green;
+        }
+        .menu li{
+            list-style-type: none;
+            display: inline-block;
+            padding: 25px;
+        }
+        #secondlink{
+            font-size:26px;
+            font-weight: 800;
+        }
+        #fourthlink{
+            font-size:26px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ul>
+    <ol>
+        <li>One</li>
+        <li>Two</li>
+        <li>Three</li>
+        <li>Four</li>
+    </ol>
+
+    <ul class="menu">
+        <li>
+            <a href="https://www.google.com/" target="_blank" class="firstlink">Home</a>
+        </li>
+        <li>
+            <a href="about.html" target="_self" id="secondlink">About</a>
+        </li>
+        <li>
+            <a href="#services" class="firstlink" title="Servic">Services</a>
+        </li>
+        <li>
+           <a href="https://www.google.com/" id="fourthlink"></a> Features</li>
+        <li>Contact us</li>
+    </ul>
+    <section id="services">
+        Welcome to our channel
+    </section>
+</body>
+</html>
