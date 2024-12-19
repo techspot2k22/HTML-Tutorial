@@ -1,0 +1,44 @@
+Block Elements:-
+<div>
+<p> (paragraph)
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6> (headings)
+<ul>, <ol>, <li> (unordered/ordered lists and list items)
+<header>
+<footer>
+<section>
+<nav>
+<form>
+<table>
+<fieldset>
+<hr> (horizontal rule)
+<figure>, <figcaption>
+
+----------------------------------------------------------------------------------
+
+Inline Elements:-
+<span>
+<img>
+<a> (anchor/link)
+<button>
+<input>
+<label>
+<select>, <option>
+<textarea>
+<b>
+<i>
+<u>
+<strong>
+<em>
+<mark>
+<small>
+<sup>
+<sub>
+<code>
+
+Inline elements have the following properties: 
+They only take up as much horizontal space as needed by the content
+They don't accept width and height CSS properties
+Margins work horizontally, but not vertically
+Padding works on all sides, but the top and bottom may overlap other elements
+
+
